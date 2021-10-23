@@ -14,3 +14,13 @@ body {
   left: 0px;
   overflow: hidden;
 }
+.v3_6 {
+  width: 595px;
+  height: 174px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 91px;
+  left: 361px;
+  overflow: hidden;
+}
