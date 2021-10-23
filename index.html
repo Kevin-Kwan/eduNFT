@@ -1,1 +1,84 @@
-<!DOCTYPE html><html><head><link href="./main.css" rel="stylesheet" /><title>Document</title></head><body><div class="v2_4"><div class="v3_6"></div></div></body></html>
+<div class="div">
+  <div class="div-2"><div class="div-3"></div></div>
+  <div class="div-4">
+    <picture>
+      <source
+        srcset="
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=100   100w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=200   200w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=400   400w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=800   800w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=1200 1200w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=1600 1600w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?format=webp&width=2000 2000w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8
+        "
+        type="image/webp"
+      />
+
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8"
+        srcset="
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=100   100w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=200   200w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=400   400w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=800   800w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=1200 1200w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=1600 1600w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8?width=2000 2000w,
+          https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F72c01a16ed744c889a5d86758f40bfa8
+        "
+        class="image"
+      />
+    </picture>
+
+    <div class="builder-image-sizer image-sizer"></div>
+  </div>
+</div>
+<style>
+  .div {
+    display: flex;
+    max-width: 3291px;
+  }
+  .div-2 {
+    display: flex;
+    max-width: 1440px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 1024px;
+    width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .div-3 {
+    display: flex;
+    max-width: 595px;
+    height: 174px;
+    width: 595px;
+    background-color: rgba(196, 196, 196, 1);
+  }
+  .div-4 {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 1440px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .image {
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .image-sizer {
+    width: 100%;
+    padding-top: 71.11111111111111%;
+    pointer-events: none;
+    font-size: 0;
+  }
+</style>
