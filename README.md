@@ -5,6 +5,7 @@ NFTs are exploding in popularity at the moment. However, it's mostly NFTs create
 eduNFT is a website/online marketplace platform. Users who are students can use their .edu emails to sign up. They can upload, create, and list their own NFTs for other people on the internet to buy using cryptocurrency. These can include all kinds of content including software, art, school work, and more (discussions regarding ethics and regulations surrounding school policies may come up in the future). Overall, eduNFT allows for students to show off and auction/sell their creative work online and be introduced to what NFTs are and what cryptocurrency is.
 
 ## How we built it
+We first brainstormed what the site might look like using Figma. Then, we built the site using Webflow. We then embedded tools with the help of Coinbase to handle payments and linked elements together in code in the HTML files in order to make navigation and site functionality possible.
 
 ## Challenges we ran into
 While the site in its current state might be a good demo/proof-of-concept showcase of the idea, there is functionality that hasn't been implemented yet due to lack of knowledge as a first year and time constraints. We haven't learned anything yet about database-related work, API usage, or any back-end development which are concepts that would have been very useful in this project.
