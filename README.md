@@ -2,7 +2,7 @@
 Video Presentation: https://youtu.be/wmo58AI7Kg0
 
 ## Disclaimer
-I personally do not support NFTs. This was just a project where I was trying to learn a little bit about web development.
+This project does not necessarily reflect my thoughts and opinions surrounding NFTs. This was just a project where I was trying to learn a little bit about web development and one of the themes brought up by NCR (event sponsor) was NFTs and cryptocurrency.
 
 ## Inspiration
 NFTs are exploding in popularity at the moment. However, it's mostly NFTs created by artists who create music and visual arts. I haven't seen NFTs and Cryptocurrencies being implemented into school environments yet, so why not start a new, unique platform to allow for students to create their own content and sell it as NFTs to the internet? This allows students to get exposed to the new part of the internet that is blockchain, crypto, and NFTs.
